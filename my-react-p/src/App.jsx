@@ -1,9 +1,11 @@
-import React from 'react'
+import SideBar from "./features/sidemenu/components/SideBar";
 
 function App() {
   return (
-    <div>App</div>
-  )
+    <div className="container">
+      <SideBar />
+    </div>
+  );
 }
 
-export default App
+export default App;

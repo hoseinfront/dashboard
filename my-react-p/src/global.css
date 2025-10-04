@@ -17,12 +17,6 @@ a {
   color: inherit;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
 button {
   border: none;
   outline: none;
@@ -35,7 +29,6 @@ ul, ol {
 }
 
 .container {
-  width: 100%;
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 16px;
@@ -44,4 +37,26 @@ ul, ol {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   color: #222;
+}
+
+.custom-icon div {
+
+  height: fit-content !important;
+
+  width: fit-content !important;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+.custom-icon path,
+
+.custom-icon polygon {
+
+  fill: inherit !important;
+
 }
